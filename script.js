@@ -44,8 +44,8 @@ input.addEventListener("click",()=>{
 // const sacarProducto=document.querySelector("#sacarItem");
 // const total=document.getElementById("totalCompra");
 
-// var valorCirculo=parseInt(circulo.textContent);
-// var valor=parseInt(precioCard.textContent);
+// let valorCirculo=parseInt(circulo.textContent);
+// let valor=parseInt(precioCard.textContent);
 
 
 // btnCompra.addEventListener("click", ()=>{
@@ -87,9 +87,9 @@ input.addEventListener("click",()=>{
 //     var ingresoUsuario=prompt("si es administrador ingrese su usuario para agregar productos");
 
 //     if (ingresoUsuario==usuarioAdministrador) {
-//         var ingresoPassword=prompt("ingrese password");
+//         let ingresoPassword=prompt("ingrese password");
 //         if (ingresoPassword==password) { 
-//             var nuevoproducto={};
+//             let nuevoproducto={};
 //             nuevoproducto.nombre=prompt("ingrese nombre del producto nuevo");
 //             nuevoproducto.precio=parseInt(prompt("ingrese precio del producto nuevo"));
 //             nuevoproducto.stock=parseInt(prompt("ingrese unidades del producto nuevo"));
@@ -110,22 +110,22 @@ input.addEventListener("click",()=>{
 
 // let cancion=["mi", "barba", "tiene", "tres", "pelos"];
 
-// var botonSacar=document.querySelector("#btnSacar");
-// var botonEliminar=document.getElementById("btnEliminar");
-// var nodo2=document.querySelector("#nodo2");
-// var nodoPadre=document.querySelector("#nodoPadre");
-// var nodo=document.getElementById("#nodo");
-// var inputCancion=document.getElementById("inputCancion")
+// const botonSacar=document.querySelector("#btnSacar");
+// const botonEliminar=document.getElementById("btnEliminar");
+// const nodo2=document.querySelector("#nodo2");
+// const nodoPadre=document.querySelector("#nodoPadre");
+// const nodo=document.getElementById("#nodo");
+// const inputCancion=document.getElementById("inputCancion");
 
-// var textoCancion=document.createElement("p");
+// let textoCancion=document.createElement("p");
 // textoCancion.textContent=`${cancion.join(" ")}.`;
 // nodoPadre.insertBefore(textoCancion,nodo2);
 
 
 // botonSacar.addEventListener("click",()=>{
-//     var buscador=inputCancion.value;
+//     let buscador=inputCancion.value;
 //     if (cancion.includes(buscador)) {
-//         var nuevotext=cancion.filter(item => item!=buscador)
+//         let nuevotext=cancion.filter(item => item!=buscador)
 //         textoCancion.textContent=`${nuevotext.join(" ")}.`;
 //         inputCancion.value=""
 //     } else {
@@ -135,15 +135,15 @@ input.addEventListener("click",()=>{
 
                                  // ejercicio 5
 
- var tituloDiaNoche=document.getElementById("tituloDiaNoche");
- var containerDiaNoche=document.querySelector("#containerDiaNoche");
- var imagen=document.createElement("img");
- imagen.src="./imagenes/murcielago.png";
+//  const tituloDiaNoche=document.getElementById("tituloDiaNoche");
+//  const containerDiaNoche=document.querySelector("#containerDiaNoche");
+//  const imagen=document.createElement("img");
+//  imagen.src="./imagenes/murcielago.png";
 
- tituloDiaNoche.addEventListener("mouseover",()=>{
-    containerDiaNoche.style.background="#000";
-    containerDiaNoche.appendChild(imagen);
- });
+//  tituloDiaNoche.addEventListener("mouseover",()=>{
+//     containerDiaNoche.style.background="#000";
+//     containerDiaNoche.appendChild(imagen);
+//  });
 
 //no entendi si la imagen debia quedarse o no asi que el codigo que sigue abajo es por si deberia irse la imagen al perder el foco
 
