@@ -135,19 +135,19 @@ input.addEventListener("click",()=>{
 
                                  // ejercicio 5
 
-// var tituloDiaNoche=document.getElementById("tituloDiaNoche");
-// var containerDiaNoche=document.querySelector("#containerDiaNoche");
-// var imagen=document.querySelector("img");
-// imagen.src="./imagenes/murcielago.png"
+ var tituloDiaNoche=document.getElementById("tituloDiaNoche");
+ var containerDiaNoche=document.querySelector("#containerDiaNoche");
+ var imagen=document.createElement("img");
+ imagen.src="./imagenes/murcielago.png";
 
-// tituloDiaNoche.addEventListener("mouseover",()=>{
-//     containerDiaNoche.style.background="#000";
-//     containerDiaNoche.appendChild(imagen);
-// });
+ tituloDiaNoche.addEventListener("mouseover",()=>{
+    containerDiaNoche.style.background="#000";
+    containerDiaNoche.appendChild(imagen);
+ });
 
 //no entendi si la imagen debia quedarse o no asi que el codigo que sigue abajo es por si deberia irse la imagen al perder el foco
 
-// tituloDiaNoche.addEventListener("mouseout",()=>{
+//tituloDiaNoche.addEventListener("mouseout",()=>{
 //     containerDiaNoche.style.background="#fff";
 //     containerDiaNoche.removeChild(imagen);
 // });
